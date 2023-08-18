@@ -5,8 +5,8 @@ metadata:
 spec:
   type: url
   targets:
-    - groups
-    - components
-    - apis
-    - domains
-    - systems
+    - all-groups.yaml
+    - all-components.yaml
+    - all-apis.yaml
+    - all-domains.yaml
+    - all-systems.yaml
