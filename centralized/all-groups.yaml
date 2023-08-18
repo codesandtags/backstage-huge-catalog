@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all-groups.yaml
+spec:
+  type: url
+  targets:
+    - groups/group-0.yaml
+    - groups/group-1.yaml
+    - groups/group-2.yaml
+    - groups/group-3.yaml
+    - groups/group-4.yaml
+    - groups/group-5.yaml
+    - groups/group-6.yaml
+    - groups/group-7.yaml
+    - groups/group-8.yaml
+    - groups/group-9.yaml

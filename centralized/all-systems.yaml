@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all-systems.yaml
+spec:
+  type: url
+  targets:
+    - systems/system-0.yaml
+    - systems/system-1.yaml
+    - systems/system-2.yaml
+    - systems/system-3.yaml
+    - systems/system-4.yaml
+    - systems/system-5.yaml
+    - systems/system-6.yaml
+    - systems/system-7.yaml
+    - systems/system-8.yaml
+    - systems/system-9.yaml

@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all-domains.yaml
+spec:
+  type: url
+  targets:
+    - domains/domain-0.yaml
+    - domains/domain-1.yaml
+    - domains/domain-2.yaml
+    - domains/domain-3.yaml
+    - domains/domain-4.yaml

@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: all-entities.yaml
+spec:
+  type: url
+  targets:
+    - groups
+    - components
+    - apis
+    - domains
+    - systems
