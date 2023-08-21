@@ -9,6 +9,8 @@ I have defined 2 approaches to use this catalog:
 
 For more information about the approaches, please check the `excalidraw` diagram in the `docs` folder.
 
+![Backstage approaches](./docs/backstage-approaches.png)
+
 ## Centralized Catalog
 
 In this approach, the catalog is defined in a single file `all.yaml` and all the entities are referenced from this file using the Location kind. Using this approach the catalog will be generated from one single file.
