@@ -2,7 +2,7 @@
 
 # Define the folder containing the structure
 folder_path="./centralized"
-folder_output="./centralized"
+folder_output="./decentralized/"
 
 # Check if the 'apis' folder exists
 # Function to process a folder
@@ -23,7 +23,7 @@ process_folder() {
         filename_without_extension="${filename_without_extension%.*}"
 
         # Create a folder with the same name (without extension)
-        folder_name="$filename_without_extension"
+        folder_name="$folder_output$filename_without_extension"
         mkdir -p "$folder_name"
 
         # Copy the content of the file into the folder with the name 'catalog-info.yaml'

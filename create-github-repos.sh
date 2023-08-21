@@ -1,5 +1,7 @@
 #!/bin/bash
 
+github_organization="ricteam"
+
 # Create automatically GitHub repositories
 # Iterating over each folder in the current directory
 for folder in */; do
@@ -17,7 +19,7 @@ for folder in */; do
   git branch -M main
 
   # Add the GitHub remote repository and push
-  git remote add origin "git@github.com:ricteam/$folder_name.git"
+  git remote add origin "git@github.com:$github_organization/$folder_name.git"
   git push -u origin main
 
   echo "Initialized Git repository, committed changes, and pushed to GitHub for folder: $folder_name"

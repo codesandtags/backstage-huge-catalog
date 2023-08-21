@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: group-2
+  description: Group 2
+spec:
+  type: team
+  profile:
+    displayName: Group 2
+    email: group-2@example.com
+    picture: >-
+      https://avatars.dicebear.com/api/identicon/group-2.svg?background=%23fff&margin=25
+  children: []

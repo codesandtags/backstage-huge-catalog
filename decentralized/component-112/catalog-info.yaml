@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: component-112
+spec:
+  type: service
+  lifecycle: production
+  owner: guest
+  providesApis: []
+  consumesApis: []
+  system: system-1
