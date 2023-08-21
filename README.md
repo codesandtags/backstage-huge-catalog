@@ -71,6 +71,10 @@ If you want to see a real example on Github with this approach, please check the
 
 https://github.com/ricteam
 
+### ⚠️ Warning
+
+Running the script will generate a lot of traffict to Github GraphQL API, so you may get the error `GraphQL error: You have created too many repositories, too quickly. Please try again later.`, for more information about this error, please check the next [link - rate-limit](https://docs.github.com/en/graphql/overview/resource-limitations#rate-limit).
+
 ## Why do I need this?
 
 This `Backstage Huge Catalog` will help to test the performance of the catalog and the different approaches to generate the catalog. Also, it will help to test the different plugins that are using the catalog.
