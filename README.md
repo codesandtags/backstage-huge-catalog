@@ -57,6 +57,20 @@ You will have something like the next example, where each folder represents a re
 | |____catalog-info.yaml
 ```
 
+If you want to see a real example on Github with this approach, please check the next organization, where I have created a catalog with the next entities:
+
+```json
+"generator": {
+    "groups": 10,
+    "components": 1000,
+    "apis": 1000,
+    "domains": 5,
+    "systems": 10,
+},
+```
+
+https://github.com/ricteam
+
 ## Why do I need this?
 
 This `Backstage Huge Catalog` will help to test the performance of the catalog and the different approaches to generate the catalog. Also, it will help to test the different plugins that are using the catalog.
